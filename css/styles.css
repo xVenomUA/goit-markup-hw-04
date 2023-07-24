@@ -1,0 +1,340 @@
+:root {
+    --primaryral-font: 'Raleway', sans-serif;
+    --primaryrob-font: 'Roboto', sans-serif;
+    --primary-white-color: #ffffff;
+    --primary-navyblue-color: #2e2f42;
+    --iris-color: #4d5ae5;
+    --slate-color: #434455;
+    --howe-color: #404bbf;
+    --cloud-color: #f4f4fd;
+    --but-color: #e7e9fc;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    font-family: var(--primaryrob-font);
+    color: var(--slate-color);
+}
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+.list {
+    list-style-type: none;
+}
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+}
+.link,
+.link-logo {
+    text-decoration: none;
+}
+.nav .link-logo,
+.nav .link,
+.end .link {
+    font-family: var(--primaryral-font);
+    color: var(--iris-color);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.second {
+    color: var(--primary-navyblue-color);
+}
+
+.nav .list .link {
+    font-family: var(--primaryrob-font);
+    color: var(--primary-navyblue-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    text-transform: none;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--howe-color);
+}
+.adre .link {
+    color: var(--slate-color);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+}
+.adre {
+    font-style: normal; /*Хотіло для завдання, хоча можна і в.adre .link запхати і теж працює */
+}
+.adre .link:hover,
+.adre .link:focus {
+    color: var(--howe-color);
+}
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.service,
+.end {
+    background-color: var(--primary-navyblue-color);
+}
+
+.i-one {
+    font-size: 56px;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    max-width: 496px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.service .buttoo {
+    font-family: var(--primaryrob-font);
+    font-size: 16px;
+    color: var(--primary-white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    background-color: var(--iris-color);
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.service .buttoo:hover,
+.service .buttoo:focus {
+    background-color: var(--howe-color);
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.i-two {
+    color: var(--primary-navyblue-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.045rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team .liii {
+    background-color: var(--primary-white-color);
+}
+
+.team .i-tree,
+.portfolio .htwo,
+.benefit .h-tree {
+    color: var(--primary-navyblue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.025rem;
+}
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.end .second,
+.end .text {
+    color: #f4f4fd;
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+.portfolio .buttoo {
+    font-family: var(--primaryrob-font);
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--but-color);
+    border-radius: 4px;
+}
+
+.portfolio .buttoo:hover,
+.portfolio .buttoo:focus {
+    color: var(--primary-white-color);
+    background-color: #404bbf;
+    border: 1px solid transparent;
+}
+.portfolio .text {
+    color: var(--slate-color);
+}
+
+/* РОЗМІТКА СТОРІНКИ  */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Футер */
+.header .container {
+    display: flex;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 0;
+}
+.nav .list {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+    margin: 0;
+}
+.adre .list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
+    margin: 0;
+}
+.link-logo {
+    margin-right: 76px;
+}
+.nav .link {
+    padding: 24px 0;
+}
+.nav .list .link {
+    display: block;
+}
+
+/* MAIN CLASS  */
+/* SERVICE */
+.service {
+    padding: 188px 0;
+}
+/* все в стилях */
+/*BENEFITS*/
+.benefit,
+.team {
+    padding: 120px 0;
+}
+.benefit .list {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    margin: 0;
+}
+.h-tree,
+.cont-port .htwo {
+    margin: 0 0 8px 0;
+}
+.benefit .liii {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+/* WORK */
+.work {
+    padding-bottom: 120px;
+}
+.work .list,
+.team .list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+.work .liii,
+.portfolio .list .link {
+    flex-basis: calc((100% - 48px) / 3);
+}
+.work .i-two,
+.team .i-two {
+    margin-bottom: 72px;
+    margin-top: 0;
+}
+/* TEAM */
+.team .liii {
+    flex-basis: calc((100-3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.cont-team {
+    padding: 32px 0;
+    text-align: center;
+}
+.cont-team .i-tree {
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+.cont-team .text,
+.cont-port .text,
+.benefit .text {
+    margin: 0;
+}
+/* ФУТЕР */
+.end {
+    padding: 100px 0;
+}
+.end .link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.end .text {
+    max-width: 264px;
+    height: 72px;
+    margin: 0;
+}
+/* PORTFOLIO */
+
+.portfolio {
+    padding: 96px 0 120px 0;
+}
+.portfolio .list-button {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0;
+    margin-bottom: 72px;
+    padding: 0;
+}
+.portfolio .list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.cont-port {
+    padding: 32px 16px;
+    margin: 0;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
