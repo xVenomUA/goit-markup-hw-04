@@ -342,4 +342,24 @@ img {
 .list-icon {
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    justify-content: center;
+}
+.list-icon .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iris-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.team .text {
+    margin: 0 0 8px 0;
+}
+.team .liii {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
