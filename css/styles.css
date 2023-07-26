@@ -403,7 +403,7 @@ img {
 }
 .customer .link:hover,
 .customer .link:focus {
-    background-color: var(--howe-color);
+    border-color: var(--howe-color);
     color: var(--howe-color);
 }
 .customer .icon {
