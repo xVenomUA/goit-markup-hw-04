@@ -417,6 +417,9 @@ img {
     margin: 0 120px 0 0;
     padding: 0;
 }
+.social .link {
+    margin: 0;
+}
 .social .text {
     font-weight: 500;
     max-width: 96;
