@@ -8,6 +8,7 @@
     --howe-color: #404bbf;
     --cloud-color: #f4f4fd;
     --but-color: #e7e9fc;
+    --lightslate: #8e8f99;
 }
 
 body {
@@ -242,7 +243,8 @@ img {
 /* все в стилях */
 /*BENEFITS*/
 .benefit,
-.team {
+.team,
+.customer {
     padding: 120px 0;
 }
 .benefit .list {
@@ -339,6 +341,7 @@ img {
     border-top: none;
 }
 
+/* СЕКЦІЯ КОМАНДИ */
 .list-icon {
     display: flex;
     list-style-type: none;
@@ -370,4 +373,28 @@ img {
 }
 .team .icon {
     fill: var(--cloud-color);
+}
+
+/* SECTION CUSTOMER */
+.customer .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+.customer .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-white-color);
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate);
+}
+.customer .i-two {
+    padding: 0;
+    margin: 0 0 72px 0;
 }
