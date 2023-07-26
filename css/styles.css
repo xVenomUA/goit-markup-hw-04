@@ -440,3 +440,12 @@ img {
 .social .icon {
     fill: var(--cloud-color);
 }
+/* SECTION BENEFITS */
+.icon-benefit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+    height: 112px;
+}
