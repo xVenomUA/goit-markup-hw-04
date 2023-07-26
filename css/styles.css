@@ -448,4 +448,5 @@ img {
     background-color: var(--cloud-color);
     border-radius: 4px;
     height: 112px;
+    margin-bottom: 8px;
 }
