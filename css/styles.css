@@ -409,3 +409,18 @@ img {
 .customer .icon {
     fill: currentColor;
 }
+.end .container {
+    display: flex;
+    align-items: baseline;
+}
+.end-logo {
+    margin: 0 120px 0 0;
+    padding: 0;
+}
+.social .text {
+    font-weight: 500;
+    max-width: 96;
+    height: 24px;
+    margin: 0 0 16px 0;
+    color: var(--primary-white-color);
+}
