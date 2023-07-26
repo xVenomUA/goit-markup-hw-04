@@ -9,6 +9,7 @@
     --cloud-color: #f4f4fd;
     --but-color: #e7e9fc;
     --lightslate: #8e8f99;
+    --soc: #31d0aa;
 }
 
 body {
@@ -420,10 +421,20 @@ img {
 .social .link {
     margin: 0;
 }
+.social .list-icon {
+    gap: 16px;
+}
 .social .text {
     font-weight: 500;
     max-width: 96;
     height: 24px;
     margin: 0 0 16px 0;
     color: var(--primary-white-color);
+}
+.social .link:hover,
+.social .link:focus {
+    background-color: var(--soc);
+}
+.social .icon {
+    fill: var(--cloud-color);
 }
