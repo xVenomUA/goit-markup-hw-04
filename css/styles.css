@@ -338,3 +338,8 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+.list-icon {
+    display: flex;
+    list-style-type: none;
+}
