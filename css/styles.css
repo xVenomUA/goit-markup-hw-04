@@ -513,3 +513,25 @@ img {
 .portfolio .link {
     display: block;
 }
+.portfolio .liii {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: var(--iris-color);
+    color: var(--cloud-color);
+    line-height: 1.5em;
+    letter-spacing: 0.02rem;
+    width: 360px;
+    height: 300px;
+    padding: 40px 32px 162px 32px;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.portfolio .liii:hover .overlay {
+    transform: translateY(0);
+}
