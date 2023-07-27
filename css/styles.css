@@ -537,3 +537,6 @@ img {
 .portfolio .liii:hover .overlay .text {
     transform: translateY(0);
 }
+.portfolio .liii:focus .overlay .text {
+    transform: translateY(0%);
+}
